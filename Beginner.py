@@ -68,3 +68,24 @@ print dataA, dataB, dataC
 print list.index('A')
 print list.index('D')
 
+# リスト挿入、追加
+list.append('alpha')
+print list
+
+list.insert(2, 'beta')
+print list
+
+# リスト削除
+list.remove('beta')
+print list
+
+# リストソート
+list = [2, 6, 4, 8, 5, 1]
+print list
+
+list.sort()
+print list
+
+list.sort(reverse=True)
+print list
+
