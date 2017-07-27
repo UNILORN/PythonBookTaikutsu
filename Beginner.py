@@ -89,3 +89,7 @@ print list
 list.sort(reverse=True)
 print list
 
+# tuple と list
+print tuple(['A', 'B', 3])
+print list(('C', 'D', 6))
+
