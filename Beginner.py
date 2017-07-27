@@ -55,5 +55,16 @@ print 'B' in list
 print 100 not in list
 print 'D' not in list
 
+# リスト代入方法
+dataA = list[0]
+dataB = list[1]
+dataC = list[2]
+print dataA, dataB, dataC
 
+dataA, dataB, dataC = list[3:]
+print dataA, dataB, dataC
+
+# リストインデックス検索
+print list.index('A')
+print list.index('D')
 
