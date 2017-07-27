@@ -50,4 +50,10 @@ for i in range(len(list)):
     print i, list[i]
 
 # リスト内検索
+print 'A' in list
+print 'B' in list
+print 100 not in list
+print 'D' not in list
+
+
 
