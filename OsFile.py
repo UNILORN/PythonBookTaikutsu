@@ -30,3 +30,18 @@ edit_file.write('hogehoge\n')
 edit_file.write('piyopiyo\n')
 edit_file.close()
 
+# 変数保存
+import shelve
+
+shelf_file = shelve.open('./mydata')
+cats = ['Zophie', 'Pooka']
+shelf_file['cats'] = cats
+shelf_file.close
+del shelf_file
+
+# 変数呼び出し
+shelf_file = shelve.open('./mydata')
+print type(shelf_file)
+print shelf_file['cats']
+shelf_file.close
+
